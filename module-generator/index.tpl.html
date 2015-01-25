@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body ng-app="sampleApp">
+
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!--SCRIPTS-->
+<!--libs-->
+
+<!--modules:-->
+<!--main compononents-->
+
+<!-- include: "type": "js", "files": "scripts/*.module.js" -->
+
+<!--components-->
+
+<!-- include: "type": "js", "files": "scripts/*/**/*.module.js" -->
+
+<!--main compononents-->
+
+<!--services-->
+<!-- include: "type": "js", "files": "scripts/*Service.js" -->
+<!--controllers-->
+<!-- include: "type": "js", "files": "scripts/*Ctrl.js" -->
+<!--directives-->
+<!-- include: "type": "js", "files": "scripts/*Drtv.js" -->
+<!--configs, constants, values and other-->
+<!-- include: "type": "js", "files": ["scripts/*.js","!scripts/*.module.js", "!scripts/*Drtv.js", "!scripts/*Service.js", "!scripts/*Ctrl.js"] -->
+
+<!--components-->
+
+<!--services-->
+<!-- include: "type": "js", "files": "scripts/*/**/*Service.js" -->
+<!--controllers-->
+<!-- include: "type": "js", "files": "scripts/*/**/*Ctrl.js" -->
+<!--directives-->
+<!-- include: "type": "js", "files": "scripts/*/**/*Drtv.js" -->
+<!--configs, constants, values and other-->
+<!-- include: "type": "js", "files": ["scripts/*/**/*.js","!scripts/**/*.module.js", "!scripts/*/**/*Drtv.js", "!scripts/*/**/*Service.js", "!scripts/*/**/*Ctrl.js","!scripts/tests/**.js"] -->
+
+</body>
+</html>
