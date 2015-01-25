@@ -22,17 +22,17 @@ with the content inside: <br>
 e.g. <br>
  <br>
 app.moduleName.directive('moduleName', function(){ <br>
-   'use strict'; <br>
-   var template = 'scripts/moduleName/moduleName.html'; <br>
-   return { <br>
-      restrict:'AE', <br>
-      controller:'moduleNameCtrl', <br>
-       templateUrl: template, <br>
-       compile: function(elem){  <br>
-         elem.attr('templateurl', template); <br>
-      } <br>
-   }; <br>
-}); <br>
+&emsp;   'use strict'; <br>
+&emsp;   var template = 'scripts/moduleName/moduleName.html'; <br>
+&emsp;   return { <br>
+&emsp;&emsp;      restrict:'AE', <br>
+&emsp;&emsp;      controller:'moduleNameCtrl', <br>
+&emsp;&emsp;       templateUrl: template, <br>
+&emsp;&emsp;       compile: function(elem){  <br>
+&emsp;&emsp;&emsp;         elem.attr('templateurl', template); <br>
+&emsp;&emsp;  } <br>
+&emsp;&emsp;   }; <br>
+&emsp;}); <br>
  <br>
 
 After the creation of files scripts is automaticly running grunt-include-source task that is automaticly updating html file and adding all new cerated .js files.
