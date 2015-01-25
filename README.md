@@ -17,6 +17,8 @@ By typing node generateModule.js moduleName the following structure will be crea
 ---------> moduleNameCtrl.test.js <br>
 ---------> moduleNameDrtv.test.js <br>
 ---------> moduleNameService.test.js <br>
+
+
  <br>
 with the content inside: <br>
 e.g. <br>
