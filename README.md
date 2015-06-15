@@ -1,5 +1,7 @@
 # module-generator
 
+A newer version of script: https://github.com/grzim/angular-module-generator
+
 A node script for automatic generation angular files in a modular way. <br>
 By typing node generateModule.js moduleName the following structure will be created: <br>
  <br>
